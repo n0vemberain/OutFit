@@ -159,6 +159,17 @@ The core AI engine is powered by **Google Gemini API** (`gemini-3.8-flash`), pro
 
 ---
 
+### Step 10: GitHub Repository Publication & Remote Push
+- **Date**: 2026-10-25
+- **Actions**:
+  - Installed standalone GitHub CLI (`gh v2.103.2` for macOS arm64).
+  - Authenticated via secure GitHub OAuth device flow (`gh auth login --web`).
+  - Switched default branch to `main` (`git branch -M main`).
+  - Created public remote repository `n0vemberain/OutFit` on GitHub.
+  - Linked remote `origin` (`https://github.com/n0vemberain/OutFit.git`) and pushed all commits.
+
+---
+
 ## 3. Summary of Deliverables
 
 | File / Component | Purpose |
