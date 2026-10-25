@@ -7,15 +7,27 @@
 **A luxury cross-platform suite featuring a native mobile app (React Native / Expo SDK 58) and a full-featured modern web application (React 19 / Vite / Tailwind CSS), local-first wear tracking, Cost-Per-Wear (CPW) ROI analytics, and multimodal AI skin tone analysis powered by Google Gemini 3.8 Flash.**
 
 [![React Native](https://img.shields.io/badge/React_Native-0.88.0-61DAFB?logo=react&logoColor=black)](https://reactnative.dev)
-[![React](https://img.shields.io/badge/React_Web-19.0.0-61DAFB?logo=react&logoColor=black)](https://react.dev)
 [![Expo](https://img.shields.io/badge/Expo_SDK-58.0.0-000020?logo=expo&logoColor=white)](https://expo.dev)
-[![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite&logoColor=white)](https://vite.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict_Mode-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Gemini API](https://img.shields.io/badge/Gemini_API-gemini--3.8--flash-8B5CF6?logo=google&logoColor=white)](https://ai.google.dev)
-[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-brightgreen)](https://github.com/n0vemberain/OutFit)
+[![Deployment](https://img.shields.io/badge/Deployment-GitHub_Pages-22c55e?logo=githubpages&logoColor=white)](https://n0vemberain.github.io/OutFit/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<br/>
+
+### 🌐 [**🚀 Live Web Application Demo (Click to Open)**](https://n0vemberain.github.io/OutFit/)
+**Live Deployment URL**: [https://n0vemberain.github.io/OutFit/](https://n0vemberain.github.io/OutFit/)
+
 </div>
+
+---
+
+## 🌐 Live Deployment & Links
+
+| Service | Link |
+|---|---|
+| 🚀 **Live Demo (GitHub Pages)** | **[https://n0vemberain.github.io/OutFit/](https://n0vemberain.github.io/OutFit/)** |
+| 💻 **GitHub Repository** | **[https://github.com/n0vemberain/OutFit](https://github.com/n0vemberain/OutFit)** |
 
 ---
 
