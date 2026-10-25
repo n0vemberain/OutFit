@@ -195,9 +195,14 @@ The core AI engine is powered by **Google Gemini API** (`gemini-3.8-flash`), pro
   - Enabled GitHub Pages hosting via GitHub REST API (`gh api repos/n0vemberain/OutFit/pages`).
   - Added automated CI/CD deployment workflow in `.github/workflows/deploy.yml`.
   - Successfully verified live deployment at `https://n0vemberain.github.io/OutFit/` returning `HTTP 200 OK`.
-  - Updated `README.md` with live demo badges and direct navigation links.
-
----
+  
+### Step 13: TypeScript Path Isolation & Dual-Target Verification
+- **Date**: 2026-10-25
+- **Actions**:
+  - Configured strict `include` and `exclude` boundaries in the root [tsconfig.json](file:///Users/fatinishraque/Documents/Project/OutFit/tsconfig.json) to prevent deep circular recursion across `web/node_modules/` and build directories.
+  - Verified `npx tsc --noEmit` runs cleanly with 0 type errors on the mobile React Native codebase.
+  - Verified `npm run build` in `web/` completes with 0 type errors and successful Vite production asset generation.
+  - Synced and pushed updates to `origin/main`.
 
 ---
 
