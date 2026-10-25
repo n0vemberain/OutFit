@@ -1,4 +1,4 @@
-# OutFit Web Edition — Smart Wardrobe & AI Color Stylist
+# OutFit Web Edition - Smart Wardrobe & AI Color Stylist
 
 <div align="center">
 
@@ -11,27 +11,39 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Gemini API](https://img.shields.io/badge/Gemini_API-gemini--3.8--flash-8B5CF6?logo=google&logoColor=white)](https://ai.google.dev)
+[![Deployment](https://img.shields.io/badge/Deployment-GitHub_Pages-22c55e?logo=githubpages&logoColor=white)](https://n0vemberain.github.io/OutFit/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<br/>
+
+### Live Web Application: [https://n0vemberain.github.io/OutFit/](https://n0vemberain.github.io/OutFit/)
 
 </div>
 
 ---
 
-## ✨ Features Overview
+## Live Deployment
 
-### 💎 1. Luxury Obsidian Glassmorphism Design
+- **Live URL**: [https://n0vemberain.github.io/OutFit/](https://n0vemberain.github.io/OutFit/)
+- **Repository**: [https://github.com/n0vemberain/OutFit](https://github.com/n0vemberain/OutFit)
+
+---
+
+## Features Overview
+
+### 1. Luxury Obsidian Glassmorphism Design
 - **Frosted Translucent Surfaces**: High-performance CSS `backdrop-filter: blur(16px)` layered containers with subtle specular borders and inner linear highlights.
 - **Ambient Radiant Glow Orbs**: Multi-layer animated radial orbs (Electric Violet, Neon Cyan, Rose Glow, Warm Amber) shifting continuously behind cards.
 - **Responsive Floating Dock & Desktop Navbar**: Adapts seamlessly from a spacious desktop header with live item counts to a floating bottom glass dock on mobile devices.
 
-### 👕 2. Digital Capsule Wardrobe & Wear Frequency Tracking
+### 2. Digital Capsule Wardrobe & Wear Frequency Tracking
 - **Local-First Storage**: Zero-latency offline data persistence via reactive `localStorage`.
 - **Pre-Seeded Luxury Capsule**: Automatically initialized with 11 curated capsule items (Arket Merino Knit, Reformation Silk Blouse, Uniqlo U Oxford, A.P.C. Raw Denim, COS Linen Trousers, Mango Camel Coat, AllSaints Leather Biker, Veja Sneakers, etc.).
 - **Cost-Per-Wear (CPW) Engine**: Real-time investment return calculation (`Purchase Price / Wear Count = CPW`), tracking garment ROI with utilization status ratings.
-- **Wear Logging with Celebration**: Log occasions (Work, Casual, Date Night, Dinner Party, Formal), 1–5 star ratings, styling notes, and celebrate wears with celebratory confetti!
+- **Wear Logging with Celebration**: Log occasions (Work, Casual, Date Night, Dinner Party, Formal), 1 to 5 star ratings, styling notes, and celebrate wears with celebratory confetti.
 - **Dynamic Filtering & Sorting**: Real-time keyword search, category pills (Tops, Bottoms, Outerwear, Shoes, Accessories), seasonality selector, and multiple sorting options (Most Worn, Lowest CPW, Highest Price, Recently Added).
 
-### 🔮 3. Gemini 3.8 Flash Multimodal AI Color Stylist
+### 3. Gemini 3.8 Flash Multimodal AI Color Stylist
 - **Live Webcam Capture**: Real-time interactive camera preview with flip/mirror, 3-second countdown timer, and snapshot capture directly from your browser.
 - **Photo Upload**: Supports image upload (PNG, JPEG, WEBP) from your device.
 - **Instant Demo Profiles**: Includes 4 diverse model profiles (Golden Tan, Porcelain Rose, Deep Espresso, Olive Neutral) to test analysis instantly without camera hardware or API keys.
@@ -39,20 +51,20 @@
 - **Seasonal Color Palette**: Delivers tailored seasonal color classifications (*Deep Autumn*, *Cool Summer*, *Bright Winter*, *Soft Spring*) with color names, hex swatches, categories, and styling advice.
 - **Colors to Avoid**: Flags clashing shades that wash out or overwhelm natural skin undertones with clear reasons.
 
-### 🎯 4. Euclidean RGB Closet Matching Engine
+### 4. Euclidean RGB Closet Matching Engine
 - Computes mathematical Euclidean distance in 3D RGB color space between Gemini's recommended palette and every item in the user's wardrobe.
 - Ranks matching garments with similarity percentages (e.g., *96% Palette Match*).
 - One-click "Wear Piece" button to immediately log wear for recommended matches.
 
-### 📊 5. Wardrobe Utilization & ROI Analytics
+### 5. Wardrobe Utilization & ROI Analytics
 - **Capsule Health Score**: Computes wardrobe utilization rate based on 60-day wear rotations.
 - **Financial & Wear Metrics**: Displays total garments, total wears, average wears per garment, total investment value, and average CPW across the whole closet.
-- **Wardrobe Champion (MVP)**: Highlights the most worn MVP garment with a golden trophy.
+- **Wardrobe Champion (MVP)**: Highlights the most worn MVP garment.
 - **Neglected Pieces**: Detects dormant items (0 wears or > 60 days idle) with a quick "Wear Today" revival action.
 - **Category Wear Distribution**: Animated gradient progress bars illustrating wear proportions across Tops, Bottoms, Outerwear, Shoes, and Accessories.
 - **Activity Log Feed**: Chronological timeline of all logged wear events with occasions, dates, and star ratings.
 
-### ⚙️ 6. Settings, Backup & API Configuration
+### 6. Settings, Backup & API Configuration
 - **Gemini API Key Management**: Store user API keys locally with visibility toggle and a "Test Connection" verification ping.
 - **Model Selector**: Switch between `gemini-3.8-flash`, `gemini-2.5-flash`, and `gemini-2.0-flash`.
 - **JSON Export & Import**: Backup your complete wardrobe, wear history, and stylist analysis to a portable JSON file.
@@ -60,7 +72,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -74,7 +86,7 @@
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 web/
@@ -122,7 +134,7 @@ web/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Installation
 Navigate into the `web` directory and install dependencies:
@@ -156,7 +168,7 @@ npm run preview
 
 ---
 
-## 🔑 Gemini API Setup (Optional)
+## Gemini API Setup (Optional)
 
 1. Get a free API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 2. In the web app, click **Settings** from the navigation bar.
@@ -164,4 +176,4 @@ npm run preview
 4. Click **Test Connection** to verify connectivity with `gemini-3.8-flash`.
 5. Click **Save Settings**.
 
-> **Note**: Even without an API key, the app includes high-fidelity simulation profiles so you can explore the full user experience immediately!
+Note: Even without an API key, the app includes high-fidelity simulation profiles so you can explore the full user experience immediately.
