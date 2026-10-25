@@ -185,6 +185,22 @@ The core AI engine is powered by **Google Gemini API** (`gemini-3.8-flash`), pro
 
 ---
 
+### Step 12: Production Web Deployment to GitHub Pages
+- **Date**: 2026-10-25
+- **Actions**:
+  - Configured `metro.config.js` to bundle `.wasm` assets required for WebAssembly SQLite support.
+  - Added base path (`experiments.baseUrl: "/OutFit"`) in `app.json` for GitHub Pages URL routing.
+  - Built production static web distribution bundle using `npx expo export -p web`.
+  - Published production bundle to `gh-pages` branch on GitHub.
+  - Enabled GitHub Pages hosting via GitHub REST API (`gh api repos/n0vemberain/OutFit/pages`).
+  - Added automated CI/CD deployment workflow in `.github/workflows/deploy.yml`.
+  - Successfully verified live deployment at `https://n0vemberain.github.io/OutFit/` returning `HTTP 200 OK`.
+  - Updated `README.md` with live demo badges and direct navigation links.
+
+---
+
+---
+
 ## 3. Summary of Deliverables
 
 | File / Component | Purpose |
